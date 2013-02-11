@@ -1,0 +1,64 @@
+body, html{
+  height:100%;
+}
+body{
+  margin: 0px;
+  background-color:#444;
+  font-size: 18px;
+}
+body, a:link, a:visited, a:active{
+  color: lightblue;
+}
+.topbar span{
+  padding:5px 12px;
+  float:right;
+}
+.topbar{
+  height:32px;
+  background-color: #555;
+}
+.title{
+  background-color: #777;
+}
+.dancer{
+  border:10px solid red;
+  border-radius:10px;
+  position:absolute;
+  font-size: 10px;
+}
+
+.black_overlay{
+  display: none;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index:1001;
+  -moz-opacity: 0.8;
+  opacity:.80;
+  filter: alpha(opacity=80);
+}
+.white_content {
+  display: none;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  padding: 16px;
+  border: 16px solid orange;
+  background-color: white;
+  z-index:1002;
+  overflow: auto;
+  color: black;
+}
+
+.white_content a {
+  color: black;
+}
+
+.border-square {
+  border-radius: 0px;
+}
